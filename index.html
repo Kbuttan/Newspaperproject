@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newspaper Landing Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class="container">
+    <header class="site-header">
+        <div class="logo-container">
+            <img src="images/logo.png" alt="Daily Bugle" class="logo">
+            <h1>Daily Bugle</h1>
+        </div>
+
+        <nav>
+            <div class="hamburger">☰</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="article.html">Article</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="main-banner">
+            <img src="images/banner.png" alt="Top news banner" />
+            <div class="banner-caption">
+                <h2>Top Story: Global News at a Glance</h2>
+                <p>Stay informed with today’s headlines and latest updates.</p>
+            </div>
+        </section>
+
+        <div class="responsive-sections">
+        <section class="news-section">
+            <h2>Featured Articles</h2>
+            <article>
+                <h4>Global Markets Rally Amid Economic Optimism</h4>
+                <p>Stock markets around the world surged today after central banks signaled a pause in interest rate
+                    hikes. Analysts predict a strong Q3 performance ahead.</p>
+                <a href="article.html">Read More</a>
+            </article>
+
+            <article>
+                <h4>Breakthrough in Renewable Energy Technology</h4>
+                <p>Scientists have unveiled a new solar panel material that could revolutionize energy production
+                    efficiency and cost across the globe.</p>
+                <a href="article.html">Read More</a>
+            </article>
+        </section>
+
+        <section class="latest-news">
+            <h2>Latest News</h2>
+            <ul>
+                <li><strong>Sports:</strong> National team qualifies for finals after dramatic comeback</li>
+                <li><strong>Weather:</strong> Heavy rainfall expected across the East Coast this weekend</li>
+                <li><strong>Health:</strong> New dietary guidelines emphasize whole foods, reduced sugar</li>
+            </ul>
+        </section>
+    </div>
+    </main>
+    <footer>
+        <p>Copyright © 2025. All rights reserved. Contact us at <a href="mailto:email@example.com">email@example.com</a></p>
+    </footer>
+    </div>
+    <script>
+        document.querySelector('.hamburger').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.toggle('Active');
+        });
+    </script>
+
+
+</body>
+
+</html>

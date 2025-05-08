@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newspaper Landing Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="site-header">
+            <div class="logo-container">
+                <img src="images/logo.png" alt="Daily Bugle" class="logo">
+                <h1>Daily Bugle</h1>
+            </div>
+
+            <nav>
+                <div class="hamburger">☰</div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="article.html">Article</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="image-gallery">
+                <h2>Gallery Highlights</h2>
+                <div class="gallery-grid">
+                    <img src="images/Image 1.png" alt="Top 10 places to visit in North America" />
+                    <div class="text-content">
+                        <h3>Top 10 places to visit in North America</h3>
+                        <p>This is the text content next to the image. It can include a description, caption, or any
+                            other relevant information.</p>
+                        <p>This is the text content next to the image. It can include a description, caption, or any
+                            other relevant information.</p>
+                        <p>This is the text content next to the image. It can include a description, caption, or any
+                            other relevant information.</p>
+                        <a href="#">Read More</a>
+                    </div>
+
+
+
+                    <img src="images/Image 2.png" alt="This new dish changes cooking" />
+                    <div class="text-content">
+                        <h3>This new dish changes cooking</h3>
+                        <p>This is the text content next to the image. It can include a description, caption, or any
+                            other relevant information.</p>
+                        <p>This is the text content next to the image. It can include a description, caption, or any
+                            other relevant information.</p>
+                        <p>This is the text content next to the image. It can include a description, caption, or any
+                            other relevant information.</p>
+                        <a href="#">Read More</a>
+                    </div>
+
+
+
+                    <img src="images/Image 3.png" alt="Apple's new update has faster AI" />
+                    <div class="text-content">
+                        <h3>Apple's new update has faster AI</h3>
+                        <p>This is the text content next to the image. It can include a description, caption, or any
+                            other relevant information.</p>
+                        <p>This is the text content next to the image. It can include a description, caption, or any
+                            other relevant information.</p>
+                        <p>This is the text content next to the image. It can include a description, caption, or any
+                            other relevant information.</p>
+                        <a href="#">Read More</a>
+                    </div>
+                </div>
+            </section>
+            <div class="buttonDiv">
+                <button class="button">&#10094;</button>
+                <button class="button">&#10095;</button>
+            </div>
+        </main>
+
+        <footer>
+            <p>Copyright © 2025. All rights reserved. Contact us at <a
+                    href="mailto:email@example.com">email@example.com</a></p>
+        </footer>
+    </div>
+    <script>
+        document.querySelector('.hamburger').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.toggle('Active');
+        });
+    </script>
+</body>
+
+</html>
